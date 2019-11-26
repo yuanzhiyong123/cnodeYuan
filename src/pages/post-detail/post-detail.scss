@@ -1,0 +1,50 @@
+.post_detail_con {
+  padding: 10px;
+  background: #e1e1e1;
+  .post_detail_wrap {
+    padding: 30px;
+    background: #fff;
+    .post_detail_header {
+      padding-bottom: 40px;
+      border-bottom: 1px solid #ccc;
+      .post_detail_title {
+        font-weight: bold;
+        font-size: 50px;
+      }
+      .post_info {
+        display: flex;
+        .tag {
+          flex: 1;
+          color: #fff;
+          margin-right: 20px;
+          &.good {
+            background: deeppink !important;
+          }
+          &.ask {
+            background: aqua;
+          }
+          &.share {
+            background: orange;
+          }
+          &.job {
+            background: pink;
+          }
+        }
+        .post_time_con {
+          margin-right: 20px;
+          .post_time_icon {
+            margin-right: 10px;
+            vertical-align: middle;
+          }
+          .post_time {
+            vertical-align: middle;
+          }
+        }
+      }
+      .like_icon {
+        font-size: 60px;
+        float: right;
+      }
+    }
+  }
+}

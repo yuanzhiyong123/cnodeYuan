@@ -1,0 +1,16 @@
+.index_container {
+  .at-tabs__header {
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+  }
+  .at-tabs__body {
+    margin-top: 90px;
+  }
+  .post_warp {
+    padding-top:10px;
+    .post_item {
+      margin-bottom: 10px;
+    }
+  }
+}
