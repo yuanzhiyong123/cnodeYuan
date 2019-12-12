@@ -24,7 +24,7 @@ npm run build:weapp
 - [x] 我的收藏
 
 
-## 小程序截图
+## 小程序截图 
 <img src="./images/4.jpg" width="50%">
 <img src="./images/3.jpg" width="50%">
 <img src="./images/1.jpg" width="50%">
