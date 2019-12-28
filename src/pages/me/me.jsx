@@ -27,6 +27,7 @@ class Me extends Component {
     this.props.getAccessTokenAction('')
   }
   goto() {
+    console.log()
     Taro.navigateTo({
       url: '/pages/my-collect/my-collect'
     })
